@@ -3,29 +3,78 @@ body {
   margin: 0px;
   padding: 0px;
   background: url("gym-background-img.jpg");
+  font-family: "Original Surfer", cursive;
 }
 
 .left {
-  border: 2px solid red;
+  border: 2px;
   display: inline-block;
   position: absolute;
   left: 34px;
-  top:20px;
+  top: 20px;
+  width: 153px;
+  line-height: 1;
+}
+.left img {
+  width: 150px;
+  filter: invert(100%);
+}
+.left div {
+  text-align: center;
 }
 .mid {
   display: block;
-  width: 33%;
-  margin:20px auto;
-  border: 2px solid green;
+  width: 45%;
+  margin: 20px auto;
+  border: 2px;
 }
 .right {
   display: inline-block;
-  border: 2px solid yellow;
+  border: 2px;
   position: absolute;
   right: 34px;
-  top:20px;
+  top: 20px;
 }
- 
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 18px;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 23px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: gray;
+}
 
+.btn {
+  margin: opx 9px;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  font-family: "Original Surfer", cursive;
+}
+.btn:hover {
+  background-color: darkgray;
+}
 
-
+.container {
+  border: 2px solid red;
+  margin-left: 41px;
+  border-radius: 11px;
+  width: 34%;
+  padding: 166px 35px;
+  float: none;
+  height: 47px;
+  margin-top: 131px;
+}
