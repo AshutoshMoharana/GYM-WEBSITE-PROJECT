@@ -1,9 +1,10 @@
 body {
   color: white;
-  margin: 0px;
-  padding: 0px;
   background: url("gym-background-img.jpg");
   font-family: "Original Surfer", cursive;
+  height: "";
+  width: "100vh";
+  background-repeat: no-repeat;
 }
 
 .left {
@@ -16,7 +17,7 @@ body {
   line-height: 1;
 }
 .left img {
-  width: 150px;
+  width: 10rem;
   filter: invert(100%);
 }
 .left div {
@@ -24,9 +25,10 @@ body {
 }
 .mid {
   display: block;
-  width: 45%;
-  margin: 20px auto;
+  width: 75%;
+  margin: 20px ;
   border: 2px;
+  margin-left: 359px;
 }
 .right {
   display: inline-block;
@@ -34,6 +36,7 @@ body {
   position: absolute;
   right: 34px;
   top: 20px;
+  margin-right: 20px;
 }
 .navbar {
   display: inline-block;
@@ -69,7 +72,7 @@ body {
 }
 
 .container {
-  border: 2px solid red;
+  border: 2px;
   margin-left: 41px;
   border-radius: 11px;
   width: 34%;
@@ -77,4 +80,40 @@ body {
   float: none;
   height: 47px;
   margin-top: 131px;
+}
+.form-group {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border-radius: 14px;
+  box-sizing: border-box;
+}
+input {
+  width: 80%;
+  background-color: none;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+h1 {
+  margin-top: -169px;
+}
+
+/* media queries-------------------------- */
+
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+  
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+}
+
+@media all and (min-width: 480px) and (max-width: 768px) {
+}
+
+@media all and (max-width: 480px) {
 }
